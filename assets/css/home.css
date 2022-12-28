@@ -252,6 +252,7 @@ a:hover {
     color: white;
     animation: myAnim 1s ease 0s 1 normal forwards;
     position: fixed;
+    z-index: 99999;
   }
   .active {
     display: none;

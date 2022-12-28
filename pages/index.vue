@@ -226,8 +226,16 @@ export default {
   data() {
     return {
       isClicked: true,
+      title: 'Codexworld',
     };
   },
+   head({ $seo }) {
+      return $seo({
+        title: 'Codexworld',
+        description: 'Hello, I’m Codex World, a Software Engineer with 4 years of experience. I care a lot about using design and creating web & application Software for positive impact. and enjoy creating user-centric, delightful, and human experiences to solve Problems in the Society.',
+        keywords: 'Codex, Codexworld, Software Engineer',
+      })
+    },
   methods: {
     ToggleHandler() {
       this.isClicked = !this.isClicked;
