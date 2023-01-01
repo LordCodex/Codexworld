@@ -49,7 +49,7 @@
     <div class="hero-section">
       <div class="hero-box-1">
         <h1>
-          Hello, I’m Codex, a Software Engineer with 4 years of experience.
+          Hello, I’m Codex, a Software Engineer with 3 years of experience.
         </h1>
         <br />
         <h5>Frontend & Backend Engineer</h5>
